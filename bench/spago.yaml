@@ -1,0 +1,13 @@
+package:
+  name: dodo-printer-benchmarks
+  dependencies:
+    - dodo-printer
+  test:
+    main: Test.Main
+    dependencies: []
+workspace:
+  package_set:
+    registry: 50.4.0
+  extra_packages:
+    dodo-printer:
+      path: ..
